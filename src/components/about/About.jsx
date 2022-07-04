@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>1+ Years Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -35,12 +35,17 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem
-            eveniet at dolores facilis placeat! Cumque a, id, dolorum earum
-            facilis eum voluptatibus eveniet nesciunt odit laborum doloribus
-            atque neque?
+            Experienced full-stack developer with 1 years of experience in the
+            industry. I have high proficiency in some of the following programs:
+            Node, React, Javascript, HTML, Wordpress and CSS. I seek to establish a full time
+            career as a full-stack developer. As someone who
+            understands web application architecture well, I am capable of
+            training others in general web development. I've worked with
+            development teams, and can lead as well be a good team employee.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
