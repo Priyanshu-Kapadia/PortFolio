@@ -63,7 +63,10 @@
 }
 
 @media (max-width: 1024px) and (orientation: landscape){
-    
+    .services__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
 }
 
 /* ==== MEDIA QUERIES (small DEVICES) ===== */
