@@ -62,7 +62,7 @@
     }
 }
 
-@media screen and (orientation: landscape) {
+@media (max-width: 1080px) and (orientation: landscape) {
     .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;

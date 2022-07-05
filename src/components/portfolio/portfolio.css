@@ -76,6 +76,16 @@
   }
 }
 
+@media (max-width: 1080px) and (orientation: landscape) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .language-logo{
+    font-size: 0.7rem;
+  }
+}
+
 /* ==== MEDIA QUERIES (small DEVICES) ===== */
 @media screen and (max-width: 600px) {
   .portfolio__container {
