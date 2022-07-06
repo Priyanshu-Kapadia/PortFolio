@@ -10,6 +10,12 @@ import IMG7 from "../../assets/portfolio7.jpg";
 import IMG8 from "../../assets/portfolio8.jpg";
 import IMG9 from "../../assets/portfolio9.jpg";
 import IMG10 from "../../assets/portfolio10.jpg";
+import IMG11 from "../../assets/portfolio11.jpg";
+import IMG12 from "../../assets/portfolio12.jpg";
+import IMG13 from "../../assets/portfolio13.jpg";
+import IMG14 from "../../assets/portfolio14.jpg";
+import IMG15 from "../../assets/portfolio15.jpg";
+
 import { SiReact } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si"; 
 import { SiJavascript } from "react-icons/si";
@@ -20,6 +26,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiSolidity } from "react-icons/si";
 import { BsWordpress } from "react-icons/bs";
 import { DiPhp } from "react-icons/di"; 
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 const data = [
   {
@@ -243,6 +251,118 @@ const data = [
       {
         name: "Tailwindcss",
         logo: <SiTailwindcss className="logo"/>
+      }
+    ],
+  },
+  {
+    id: 11,
+    image: IMG11,
+    title: "Shopera Ecommerce App",
+    demo: "https://shopera.netlify.app/",
+    language: [
+      {
+        name: "MongoDB",
+        logo: <SiMongodb className="logo"/>
+      },
+      {
+        name: "Express",
+        logo: <SiExpress className="logo"/>
+      },
+      {
+        name: "React",
+        logo: <SiReact className="logo"/>
+      },
+      {
+        name: "Node",
+        logo: <SiNodedotjs className="logo"/>
+      }
+    ],
+  },
+  {
+    id: 12,
+    image: IMG12,
+    title: "Toonsutra Website",
+    demo: "https://toonsutra.com/",
+    language: [
+      {
+        name: "HTML",
+        logo: <SiHtml5 className="logo" />
+      },
+      {
+        name: "CSS",
+        logo: <SiCss3 className="logo"/>
+      },
+      {
+        name: "Javascript",
+        logo: <SiJavascript className="logo"/>
+      },
+      {
+        name: "Bootstrap",
+        logo: <BsBootstrapFill className="logo"/>
+      }
+    ],
+  },
+  {
+    id: 13,
+    image: IMG13,
+    title: "YellowFigTree",
+    demo: "https://yellowfigtree.netlify.app/",
+    language: [
+      {
+        name: "React",
+        logo: <SiReact className="logo" />
+      },
+      {
+        name: "CSS",
+        logo: <SiCss3 className="logo"/>
+      },
+      {
+        name: "Javascript",
+        logo: <SiJavascript className="logo"/>
+      },
+      {
+        name: "Bootstrap",
+        logo: <BsBootstrapFill className="logo"/>
+      }
+    ],
+  },
+  {
+    id: 14,
+    image: IMG14,
+    title: "Glassmorph Website",
+    demo: "https://stupefied-joliot-a62710.netlify.app/",
+    language: [
+      {
+        name: "HTML",
+        logo: <SiHtml5 className="logo" />
+      },
+      {
+        name: "CSS",
+        logo: <SiCss3 className="logo"/>
+      }
+    ],
+  },
+  {
+    id: 15,
+    image: IMG15,
+    title: "YOGIK Website",
+    demo: "https://unruffled-perlman-98fb08.netlify.app/",
+    language: [
+      {
+        name: "HTML",
+        logo: <SiHtml5 className="logo" />
+      },
+      {
+        name: "CSS",
+        logo: <SiCss3 className="logo"/>
+      },
+      {
+        name: "Javascript",
+        logo: <SiJavascript className="logo"/>
+      },
+      {
+        name: "Bootstrap",
+        logo: <BsBootstrapFill className="logo"/>
       }
     ],
   },
