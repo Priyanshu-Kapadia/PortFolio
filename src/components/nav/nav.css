@@ -3,7 +3,7 @@ nav {
     width: max-content;
     display: flex;
     padding: 0.7rem 1.7rem;
-    z-index: 2;
+    z-index: 5;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -14,7 +14,7 @@ nav {
 
 nav a{
     background: transparent;
-    padding: 0.9rem;
+    padding: 0.7rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
@@ -26,6 +26,14 @@ nav a:hover {
 }
 
 nav a.active {
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+nav a svg path{
+   stroke: var(--color-light);
+}
+
+nav a:hover svg path {
+    stroke: var(--color-white);
 }
