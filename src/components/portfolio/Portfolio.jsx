@@ -329,8 +329,8 @@ const data = [
   {
     id: 14,
     image: IMG14,
-    title: "Glassmorph Website",
-    demo: "https://stupefied-joliot-a62710.netlify.app/",
+    title: "Graphic India",
+    demo: "https://www.graphicindia.com/",
     language: [
       {
         name: "HTML",
@@ -339,6 +339,14 @@ const data = [
       {
         name: "CSS",
         logo: <SiCss3 className="logo"/>
+      },
+      {
+        name: "Javascript",
+        logo: <SiJavascript className="logo"/>
+      },
+      {
+        name: "Bootstrap",
+        logo: <BsBootstrapFill className="logo"/>
       }
     ],
   },
