@@ -190,7 +190,7 @@ const data = [
     id: 8,
     image: IMG8,
     title: "Portfolio Templete",
-    demo: "https://youthful-kalam-ba3030.netlify.app/",
+    demo: "https://gifted-benz-8b1493.netlify.app/",
     language: [
       {
         name: "React",
